@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "slave_jwtPrivateKey",
+  "db": "slave_db"
+}
