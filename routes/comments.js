@@ -3,7 +3,7 @@ const router = express.Router();
 const _ = require("lodash");
 const adminMiddle = require("../middleware/admin");
 const authMiddle = require("../middleware/auth");
-const CommentService = require("../services/CommentService");
+const CommentService = require("../services/commentService");
 
 const commentService = CommentService();
 
