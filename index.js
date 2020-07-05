@@ -4,8 +4,8 @@ require("express-async-errors");
 const cors = require("cors");
 const app = express();
 
-require("./startup/logging")();
 app.use(cors());
+require("./startup/logging")();
 require("./startup/routes")(app);
 require("./startup/db")();
 require("./startup/config")();
