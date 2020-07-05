@@ -720,3 +720,5 @@
 {"level":"info","message":"connected to database...","timestamp":"2020-07-04T19:02:19.468Z"}
 {"level":"info","message":"server started on port 8000...","timestamp":"2020-07-04T19:03:19.975Z"}
 {"level":"info","message":"connected to database...","timestamp":"2020-07-04T19:03:19.987Z"}
+{"message":"Invalid Answers","stack":"MongooseError: Invalid Answers\n    at Object.verifyUser (/Users/ravisawlani/Documents/SlaveBlog/slave_blog_backend/services/userService.js:25:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async /Users/ravisawlani/Documents/SlaveBlog/slave_blog_backend/routes/auth.js:7:17","statusCode":400,"level":"error","timestamp":"2020-07-04T19:17:38.906Z"}
+{"message":"Target not found","stack":"MongooseError: Target not found\n    at Object.getTargetById (/Users/ravisawlani/Documents/SlaveBlog/slave_blog_backend/services/targetService.js:51:13)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async /Users/ravisawlani/Documents/SlaveBlog/slave_blog_backend/routes/target.js:28:18","statusCode":404,"level":"error","timestamp":"2020-07-04T19:19:43.389Z"}
