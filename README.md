@@ -8,6 +8,9 @@ The code is divided into following structure:
 - errors
 - logging
 - startup
+- middlewares
+- models
+- config
 - index.js (entry point)
 #### Routes
 Contains all the routes of the system.
@@ -23,6 +26,15 @@ Proper logging of the system with respect to the enviroment is handled here.
 
 #### startup
 Initialing routes and other serivices and security management during start of the app is extracted out in this folder.
+
+#### middlewares
+There are multiple middlewares to related to authentication and authorization.
+
+#### config
+Configuration of environment variables.
+
+#### models
+DB models of different collection are defined here using mongoose.
 
 ### Steps to run the project.
 - clone the repo.
