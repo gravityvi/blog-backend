@@ -1,4 +1,4 @@
 {
   "jwtPrivateKey": "blog_jwtPrivateKey",
-  "db": "slave_db"
+  "db": "blog_db"
 }
