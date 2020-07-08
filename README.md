@@ -5,21 +5,22 @@ A rest_api project created with the express and mongo.
 The code is divided into following structure:
 - ### routes
 Contains all the routes of the system.
-- services
+- ### services
 Bussiness logic is extracted out in this layer.
-- errors
+- ### errors
 Throwing errors and error management is done in this layer.
-- logging
+- ### logging
 Proper logging of the system with respect to the enviroment is handled here.
-- startup
+- ### startup
 Initialing routes and other serivices and security management during start of the app is extracted out in this folder.
-- middlewares
+- ### middlewares
 There are multiple middlewares to related to authentication and authorization.
-- models
+- ### models
 DB models of different collection are defined here using mongoose.
-- config
+- ### config
 Configuration of environment variables.
-- index.js (entry point)
+- ### index.js 
+entry point
 
 ### Steps to run the project.
 - clone the repo.
